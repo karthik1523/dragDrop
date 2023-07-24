@@ -1,0 +1,50 @@
+
+.search-icon{
+    top: 10px;
+    right: 10px;
+}
+.searchCard{
+    border: 1px solid skyblue;
+    box-shadow: 5px 5px 10px skyblue;
+    border-radius: 15px;
+}
+.card-title{
+ 
+    border-bottom: 1px solid #4E8184 ;
+}
+.showingCard{
+    background-color: #E7FDFE;
+    border-radius: 15px;
+    border: 1px solid #F0ECF7;
+}
+.image-select{
+    width: 120px;
+    height: 120px;
+    border: 1px solid #F0ECF7;
+    border-radius: 50%;
+}
+.vr{
+    border: 2px  dashed #4E8184;
+    height: 100px;
+    border-radius: 6px;
+    top: -30px;
+    animation: spin 1s infinite linear;
+}
+@keyframes spin {
+    from {height:30px;}
+    to{height: 100px;}
+
+}
+@media only screen and (max-width: 768px){
+    .empty-column{
+        display: none;
+        
+    }
+   .reverseItem{
+    flex-direction: column-reverse;
+   }
+
+  
+  
+
+}

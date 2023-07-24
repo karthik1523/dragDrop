@@ -1,0 +1,150 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="card card1 ">
+        <div cdkDrag *ngFor="let li of newlist; let i = index" cdkDragBoundary=".card">
+
+          <input class="form-control rounded-pill" id="one" value={{li}}>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mt-3">
+      <ul class="list-group">
+        <li class="list-group-item" *ngFor="let lists of list" (click)="onclick(lists)">{{lists}}</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<section class="p-3 position-relative column1">
+  <div class="row  ">
+    <div class="col-12 ">
+      <div class="row column" >
+        <div class="col-1">
+          <div class="card">
+            <img src="../../../assets/download.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-1">
+          <div class="card">
+            <img src="../../../assets/download.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-1">
+          <div class="card">
+            <img src="../../../assets/download.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-1">
+          <div class="card">
+            <img src="../../../assets/download.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-1">
+          <div class="card">
+            <img src="../../../assets/download.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-1">
+          <div class="card">
+            <img src="../../../assets/download.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-1">
+          <div class="card">
+            <img src="../../../assets/download.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-1">
+          <div class="card">
+            <img src="../../../assets/download.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+  </div>
+</section>
+
+<div class="position-relative">
+  <div class="test-container" #one>
+    <div class="card-item">
+    </div>
+    <div class="card-item">
+    </div>
+    <div class="card-item">
+    </div>
+    <div class="card-item">
+    </div>
+    <div class="card-item">
+    </div>
+    <div class="card-item">
+    </div>
+    <div class="card-item">
+    </div>
+    <div class="card-item">
+    </div>
+    <div class="card-item">
+    </div>
+    <div class="card-item">
+    </div>
+  </div>
+  <div class="position-absolute icon shadow-lg" (click)="clickRight()">
+    <h1> <img src="../../../assets/chevron-left.svg" alt=""> </h1>
+  </div>
+  <div class="position-absolute icon1" (click)="clickLeft()">
+    <img src="../../../assets/chevron-right (1).svg" alt="">
+  
+  </div>
+</div>
+

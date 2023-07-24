@@ -1,0 +1,18 @@
+.col-md-4{
+    box-shadow: 3px 3px 5px 5px  #FFE8F7  ;
+    border: 1px solid #FFE8F7;
+    background-color: white;;
+    /* background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+}
+.content1 {
+    border-bottom: 1px dashed black;
+}
+.content-2 {
+    border-bottom: 1px dashed black;
+}
+
+.col-6 {
+    font-size: 18px ;
+    font-weight: 500;
+
+}

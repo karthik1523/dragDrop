@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.aside{
+    height: 100vh;
+    
+    box-shadow: 3px 3px 10px grey;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: red;
+}
+.rectangle{
+    width: 200px;
+    height: 150px;
+    background-color: red;
+}
+
+.para{
+    visibility: hidden;
+}
+.img1{
+    top:50%;
+    left:-20px;
+}
+.img2{
+    right: -20px;
+    top: 50%;
+}
+.img3{
+    right: 50%;
+    top: -20px;
+}
+.img4{
+    left: 50%;
+    bottom: -20px ;
+}
+.img5{
+    top: -20px;
+}
